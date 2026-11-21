@@ -1,0 +1,14 @@
+{
+  "name": "kradas",
+  "version": "0.1.0",
+  "description": "Cut-paper story clips drawn in code: vertical 9:16 scenes that pop up like a paper diorama, rendered to mp4 with sound.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "serve": "node scripts/serve.mjs",
+    "render": "node scripts/render.mjs"
+  }
+}

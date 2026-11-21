@@ -344,7 +344,7 @@ async function build() {
   const house = (x, z, i) => {
     place(foldedHouse({ ...houseParts[i % 4], fascia: fasciaArt, ladder: ladderArt, width: 3.2, depth: 2.7, wallH: 1.6, gableH: 1.6, stilts: 1.2 }), { x, z, reach: 15 })
     solid(x, z, 1.9)
-    solid(x, z + 1.6, 1)
+    solid(x, z + 1.5, 0.7)
   }
   NORTH_HOUSES.forEach((x, i) => house(x, -9, i))
   SOUTH_HOUSES.forEach(([x, z], i) => house(x, z, i + 2))
